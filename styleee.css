@@ -2,10 +2,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
+  color: blue;
   text-align: center;
   text-decoration: underline;
 }
-em {
+em,
+q {
+  text-decoration: underline;
   color: blue;
 }
 .special {
@@ -13,4 +16,7 @@ em {
 }
 li b {
   color: darkblue;
+}
+h2 {
+  text-overflow: ellipsis;
 }
